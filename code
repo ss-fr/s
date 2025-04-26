@@ -1,0 +1,6 @@
+$ git clone https://github.com/fwsmasher/rigtools 
+$ cd rigtools
+$ npm i
+# Create a file named `server_config.json`
+# Then paste in `{"updater_url":"localhost:8080"}` (Or whatever your websocket URL is)
+$ npm start
